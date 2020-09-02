@@ -1,0 +1,32 @@
+
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    background-color: #191A1D;
+
+    &-icons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+        &-icon {
+            transform: scale(1);
+            margin: 1.5rem;
+            color: #4B6CC1;
+        }
+
+        &-span {
+            display: flex;
+
+            &-h2{
+                display: none;
+            }
+        }
+    }
+}
+

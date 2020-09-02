@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "https://fossbytes.com/wp-content/uploads/2016/02/front-end-developer-skills.jpg",
+        "title": "Front End Development",
+        "info": "A diverse set of skills used to create what the user can see and interact with. "
+    },
+    {
+        "id": 2,
+        "img": "https://awkward-media.com/new/wp-content/uploads/2016/01/ResponsiveWebDesign21.jpg",
+        "title": "Responsvie Design",
+        "info": "A mobile first design aproach that makes websites responsive to all screen sizes."
+    },
+    {
+        "id": 3,
+        "img": "https://images.yourstory.com/production/document_image/mystoryimage/y8km26zg-becoming-a-web-developer-in-2016.jpg?fm=png&auto=format",
+        "title": "Reusability",
+        "info": "Optimized code for readability and reusability, and naming conventions such as BEM."
+    }
+]

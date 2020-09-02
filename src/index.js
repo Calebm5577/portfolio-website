@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +10,27 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+
+    // {
+    //     "title": "Weather App",
+    //     "type": "Redesign",
+    //     "link": "",
+    //     "html": "HTML",
+    //     "css": "CSS",
+    //     "javascript": "Wordpress",
+    //     "react":"Widgets",
+    //     "gif": "https://media.giphy.com/media/KztKW2HSUiTgr9N14X/giphy.gif",
+    //     "description": "A client's nails salon website me and my team of two other people redisigned, where I was responsible for, fonts, colors, images, layout, etc."
+    // },
+    // {
+    //     "title": "Prana Yoga",
+    //     "type": "Redesign",
+    //     "link": "",
+    //     "html": "HTML",
+    //     "css": "CSS",
+    //     "javascript": "Wordpress",
+    //     "react":"Widgets",
+    //     "gif": "https://media.giphy.com/media/XEawENa4EnMO4L7j5e/giphy.gif",
+    //     "description": "A client's nails salon website me and my team of two other people redisigned, where I was responsible for, fonts, colors, images, layout, etc."
+    // }

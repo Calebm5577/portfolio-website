@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1000px) {
+
+    .Footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        &-icons {
+           flex-direction: column;
+           width: 350px;
+           color: white;
+            
+            
+
+            &-span{
+
+                &-h2{
+                    width: 250px;
+                    display: block;
+                }
+            }
+        }
+    }
+}

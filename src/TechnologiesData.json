@@ -1,0 +1,23 @@
+[
+    {
+        "logo": "https://www.seoclerk.com/pics/166898-3nJksl1386704887.png",
+        "name": "HTML"
+        
+    },
+    {
+        "logo": "http://devlup.com/wp-content/uploads/2013/07/css-logo.jpg",
+        "name": "CSS"
+    },
+    {
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+        "name": "JavaScript"
+    },
+    {
+        "logo": "https://cdn.idevie.com/wp-content/uploads/2015/12/React.js_logo.svg_.png",
+        "name": "React"
+    },
+    {
+        "logo": "https://mercantile.wordpress.org/wp-content/uploads/2017/02/wp_whiteonblue.png",
+        "name": "Wordpress"
+    }   
+]

@@ -1,0 +1,24 @@
+.Header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+    background-color: #191A1D;
+    color: white;
+
+    &-div1{
+
+    }
+
+    &-div2{
+        margin-left: 1rem;
+        display: flex;
+    }
+}
+
+
+
+.margin-right {
+    margin-right: 1rem;
+}

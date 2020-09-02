@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Movie Search app",
+        "type": "API",
+        "link": "",
+        "html": "HTML",
+        "css": "CSS",
+        "javascript": "JavaScript",
+        "react":"React",
+        "api": "Axios",
+        "gif": "https://media.giphy.com/media/YrSZQZTMsdT0qrOZOk/giphy.gif",
+        "description": "A movie search application using MovieDB's API that displays movie information, conver art, aswell as Related Searches and Trending Searches."
+    },
+    {
+        "title": "Shopify Free-Trial page",
+        "type": "Landing page",
+        "link": "",
+        "html": "HTML",
+        "css": "CSS",
+        "javascript": "JavaScript",
+        "react":"React",
+        "gif": "https://media.giphy.com/media/MZY963LYm3dbU3mQgA/giphy.gif",
+        "description": "A recreated version of Shopify's free-trial landing page, created using React to demonstrate my ability to replicate what I see."
+    },
+    {
+        "title": "Taster's club",
+        "type": "Landing page",
+        "link": "",
+        "html": "HTML",
+        "css": "CSS",
+        "javascript": "JavaScript",
+        "react":"React",
+        "gif": "https://media.giphy.com/media/MBfqptJJIkR0Pdd39l/giphy.gif",
+        "description": "A recreated version of zzz the wine shop ment to replicate the look and feel of the main page. "
+    },
+    {
+        "title": "Nail Salon",
+        "type": "Redesign",
+        "link": "",
+        "html": "HTML",
+        "css": "CSS",
+        "javascript": "Wordpress",
+        "react":"Widgets",
+        "gif": "https://media.giphy.com/media/IhmSFgHOs4mLCokv3I/giphy.gif",
+        "description": "A client's nails salon website me and my team of two other people redisigned, where I was responsible for, fonts, colors, images, layout, etc."
+    }
+
+    
+]
+
