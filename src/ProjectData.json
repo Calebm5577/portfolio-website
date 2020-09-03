@@ -2,7 +2,8 @@
     {
         "title": "Movie Search app",
         "type": "API",
-        "link": "",
+        "link": "https://movie-search-webapp.netlify.app/",
+        "code": "https://github.com/Calebm5577/movie-search-app",
         "html": "HTML",
         "css": "CSS",
         "javascript": "JavaScript",
@@ -14,7 +15,8 @@
     {
         "title": "Shopify Free-Trial page",
         "type": "Landing page",
-        "link": "",
+        "code": "https://github.com/Calebm5577/shopify-landing-page",
+        "link": "https://shopify-landing-page-23232.netlify.app/",
         "html": "HTML",
         "css": "CSS",
         "javascript": "JavaScript",
@@ -25,7 +27,8 @@
     {
         "title": "Taster's club",
         "type": "Landing page",
-        "link": "",
+        "link": "https://tasters-club-wine.netlify.app/",
+        "code": "https://github.com/Calebm5577/tasters-club-wine",
         "html": "HTML",
         "css": "CSS",
         "javascript": "JavaScript",
@@ -36,7 +39,7 @@
     {
         "title": "Nail Salon",
         "type": "Redesign",
-        "link": "",
+        "link": "https://shopify-landing-page-23232.netlify.app/",
         "html": "HTML",
         "css": "CSS",
         "javascript": "Wordpress",

@@ -41,11 +41,11 @@ const Card = ({ project }) => {
           <p>{project.description}</p>
           <span>
             Project:
-            <a><p></p></a>
+            <a href={project.link}><p>{project.link}</p></a>
           </span>
           <span>
             Code:
-            <a><p></p></a>
+            <a href={project.code}><p>{project.code}</p></a>
           </span>
         </div>
       </div>
