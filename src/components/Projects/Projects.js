@@ -46,12 +46,12 @@ const Card = ({ project }) => {
             <p>{project.description}</p>
             <span>
               Project:
-              <a href={project.link} target="_blank" className="link"><p>{project.link}</p></a>
+              <a href={project.link} target="_blank" ><p>{project.link}</p></a>
             </span>
             {!!project.code && (
-              <span >
+              <span>
               Code:
-              <a href={project.code} target="_blank"><p>{project.code}</p></a>
+              <a href={project.code} target="_blank" ><p className="link">{project.code}</p></a>
             </span>
             )}
           </div>
