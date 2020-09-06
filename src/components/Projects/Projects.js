@@ -46,7 +46,7 @@ const Card = ({ project }) => {
             <p>{project.description}</p>
             <span>
               Project:
-              <a href={project.link} target="_blank"><p>{project.link}</p></a>
+              <a href={project.link} target="_blank" className="link"><p>{project.link}</p></a>
             </span>
             {!!project.code && (
               <span >
