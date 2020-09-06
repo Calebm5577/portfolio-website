@@ -4,7 +4,7 @@ import Data from '../../TechnologiesData.json'
 
 export const Technologies = () => {
     return (
-        <div className="Technologies-wrapper">
+        <div className="Technologies-wrapper" id="skills">
             <h1>Skills</h1>
             <div className="Technologies">
                 {Data.map(technology => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Header } from './components/Header/Header'
+import Header from './components/Header/Header'
 import { Skills } from './components/Skills/Skills'
 import { Technologies } from './components/Technologies/Technologies'
 import Projects from './components/Projects/Projects'

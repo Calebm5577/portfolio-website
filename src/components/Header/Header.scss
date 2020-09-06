@@ -14,6 +14,25 @@
     &-div2{
         margin-left: 1rem;
         display: flex;
+
+        &__About {
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        &__Skills {
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        &__Projects {
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
     }
 }
 

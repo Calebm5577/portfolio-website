@@ -1,3 +1,16 @@
+
+.Card-wrapper {
+    // display: flex;
+    // flex-direction: column;
+}
+
+.cardflip-button{
+    background-color: white;
+    width: 75px;
+    height: 25px;
+
+}
+
 .CardFront {
     box-shadow: 0 1.5rem 4rem rgba(black, .35);
     width: 30vw;
@@ -7,6 +20,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        &-type {
+            padding: 0;
+            margin-bottom: 0;
+            margin-top: 0;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        &-title {
+            margin-top: 0;
+        }
 
         &-list {
             list-style: none;

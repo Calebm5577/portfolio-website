@@ -5,7 +5,7 @@ import Data from '../../SkillsData.json'
 export const Skills = () => {
     return (
         <>
-        <h1>Services</h1>
+        <h1 className="Services">Services</h1>
         <div className="Skills-wrapper">
         {Data.map(skills => {
             return(

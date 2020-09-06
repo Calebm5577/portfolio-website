@@ -19,8 +19,8 @@ const styles = {
   };
 
     return (
-        <div className="Footer">
-            <div>
+        <div className="Footer" id="Footer">
+            <div className="Footer-about">
                 <About />
             </div>
              <div className="Footer-icons">

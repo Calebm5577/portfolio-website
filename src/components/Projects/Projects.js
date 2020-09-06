@@ -3,6 +3,7 @@ import React from "react";
 import ReactCardFlip from "react-card-flip";
 import Data from "../../ProjectData.json";
 import './Projects.scss'
+import '../MediaQueries/Projects.scss'
 
 const CardStyle = {
   padding: "30px",
@@ -13,8 +14,11 @@ const CardStyle = {
 
 const Card = ({ project }) => {
   const [isFlipped, setIsFlipped] = React.useState(false);
+  var required = true;
+  var disabled = false;
   // console.log(project);
   return (
+    <div className="Card-wrapper">
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div
         style={CardStyle}
@@ -22,6 +26,7 @@ const Card = ({ project }) => {
         className="CardFront"
       >
         <div className="CardFront-div1">
+          <p className="CardFront-div1-type">{project.type}</p>
           <h3 className="CardFront-div1-title">{project.title}</h3>
           <img width="250" src={project.gif} alt="" className="CardFront-div1-gif"/>
           <div className="CardFront-div1-list">
@@ -37,19 +42,23 @@ const Card = ({ project }) => {
         onMouseLeave={() => setIsFlipped((prev) => !prev)}
         className="CardBack"
       >
-        <div>
-          <p>{project.description}</p>
-          <span>
-            Project:
-            <a href={project.link}><p>{project.link}</p></a>
-          </span>
-          <span>
-            Code:
-            <a href={project.code}><p>{project.code}</p></a>
-          </span>
-        </div>
+          <div>
+            <p>{project.description}</p>
+            <span>
+              Project:
+              <a href={project.link} target="_blank"><p>{project.link}</p></a>
+            </span>
+            {!!project.code && (
+              <span >
+              Code:
+              <a href={project.code} target="_blank"><p>{project.code}</p></a>
+            </span>
+            )}
+          </div>
       </div>
     </ReactCardFlip>
+    <button onClick={() => setIsFlipped((prev) => !prev)} className="cardflip-button">Flip</button>
+    </div>
   );
 };
 
@@ -57,7 +66,7 @@ const Projects = () => {
   return (
     <>
     <h1>Projects</h1>
-    <div  className="Projects">
+    <div  className="Projects" id="Projects">
       {Data.map((item, index) => (
         <Card project={item} key={`card-${index}`} />
       ))}

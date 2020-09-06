@@ -3,16 +3,20 @@
 .Footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 55vh;
     background-color: #191A1D;
+    margin-top: 50px;
+    overflow: hidden;
+
+    &-about {
+
+    }
 
     &-icons {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
 
         &-icon {
             transform: scale(1);

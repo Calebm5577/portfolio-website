@@ -5,10 +5,16 @@
         justify-content: space-around;
         align-items: center;
 
+        &-about {
+            width: 40%;
+            max-width: 500px;
+        }
+
         &-icons {
            flex-direction: column;
-           width: 350px;
            color: white;
+           width: 40%;
+           max-width: 500px;
             
             
 
